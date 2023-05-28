@@ -53,6 +53,7 @@ body {
 :root {
 	/* Colors */
 	--bg-black: #171717;
+	--bg-transparent-black: #1717178d;
 	--bg-grey-dark: #262626;
 	--yellow: #eab308;
 
