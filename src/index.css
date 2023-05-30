@@ -8,7 +8,7 @@
 *,
 *::before,
 *::after {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Remove default margin */
@@ -22,26 +22,26 @@ figure,
 blockquote,
 dl,
 dd {
-	margin: 0;
+  margin: 0;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 ul[role="list"],
 ol[role="list"] {
-	list-style: none;
+  list-style: none;
 }
 
 /* Set core root defaults */
 html:focus-within {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /* Set core body defaults */
 body {
-	min-height: 100vh;
-	text-rendering: optimizeSpeed;
-	line-height: 1.5;
-	background: var(--bg-black);
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background: var(--bg-grey-dark);
 }
 
 /* --------------------------MAIN STYLES------------------------ */
@@ -51,27 +51,36 @@ body {
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
 :root {
-	/* Colors */
-	--bg-black: #171717;
-	--bg-transparent-black: #1717178d;
-	--bg-grey-dark: #262626;
-	--yellow: #eab308;
+  /* Colors */
+  --bg-black: #171717;
+  --bg-transparent-black: #1717178d;
+  --bg-grey-dark: #262626;
+  --yellow: #eab308;
 
-	/* Fonts */
-	--f-title: "Poppins", sans-serif;
-	--f-paragraph: "Roboto", sans-serif;
+  /* Fonts */
+  --f-title: "Poppins", sans-serif;
+  --f-paragraph: "Roboto", sans-serif;
 }
 
 @layer utilities {
-	.f-title {
-		font-family: var(--f-title);
-	}
+  .f-title {
+    font-family: var(--f-title);
+  }
 
-	.f-paragraph {
-		font-family: var(--f-paragraph);
-	}
+  body {
+    @apply font-[Roboto];
+  }
+
+  ul {
+    @apply text-gray-400;
+  }
+
+  li {
+    @apply cursor-pointer;
+    @apply hover:text-[#fff];
+  }
 }
 
 .bg-dark {
-	background: var(--bg-black);
+  background: var(--bg-grey-dark);
 }
