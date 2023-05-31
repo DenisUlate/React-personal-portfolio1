@@ -11,7 +11,7 @@ const Nav = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className=" fixed w-full h-[80px] flex justify-between  items-center  bg-[var(--bg-transparent-black)] px-4">
+    <div className=" fixed z-10 w-full h-[80px] flex justify-between  items-center  bg-[var(--bg-transparent-black)] px-4">
       {/* Logo */}
       <div>
         <a className="text-white f-title text-3xl cursor-pointer">
@@ -27,12 +27,12 @@ const Nav = () => {
           </Link>
         </li>
         <li className="py-3 md:px-4 ">
-          <Link to="Home" smooth={true} duration={500}>
+          <Link to="About" smooth={true} duration={500}>
             About
           </Link>
         </li>
         <li className="py-3 md:px-4 ">
-          <Link to="Home" smooth={true} duration={500}>
+          <Link to="Service" smooth={true} duration={500}>
             Services
           </Link>
         </li>
