@@ -41,7 +41,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  background: var(--bg-gray-dark);
+  background: var(--bg-black);
 }
 
 /* --------------------------MAIN STYLES------------------------ */
@@ -52,12 +52,14 @@ body {
 
 :root {
   /* Colors */
-  --bg-black: #171717;
-  --bg-transparent-black: #1717178d;
+  --bg-black: #0a0a0a;
+  --bg-dark: #171717;
+  --bg-transparent-black: #171717cb;
   --bg-gray-dark: #262626;
   --bg-gray-light: #2c2c2c;
   --yellow: #eab308;
   --clr-gray: #6b7280;
+  --clr-text-gray: #737373;
 
   /* Fonts */
   --f-title: "Poppins", sans-serif;
@@ -81,8 +83,4 @@ body {
     @apply cursor-pointer;
     @apply hover:text-[#fff];
   }
-}
-
-.bg-dark {
-  background: var(--bg-gray-dark);
 }

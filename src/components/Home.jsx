@@ -3,7 +3,7 @@ import home from "../assets/home.jpg";
 
 const Home = () => {
   return (
-    <section name="Home" className="h-screen w-full pt-[300px] md:pt-200px">
+    <section name="Home" className="h-screen w-full my-[300px] md:my-[200px]">
       <div className="max-w-[540px] md:max-w-[1400px] flex m-auto justify-between items-center flex-col md:flex-row px-8 ">
         {/* text */}
         <div className=" w-[290px] md:w-[690px] pb-4 md:pb-0">

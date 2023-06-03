@@ -4,11 +4,11 @@ import { TfiWindow } from "react-icons/tfi";
 
 const Service = () => {
   return (
-    <section name="Service" className=" h-screen w-full pt-[400px] md:pt-[300px]">
+    <section name="Service" className=" h-screen w-full  my-[400px] md:my-[300px]">
       {/* Container */}
-      <div className="w-[1400px] h-fit mx-auto px-4">
+      <div className="h-fit max-w-[1400px]  mx-auto px-4">
         {/* My services text */}
-        <div className="max-w-[460px] px-2 pb-12">
+        <div className="h-fit max-w-md md:max-w-[460px] px-2 pb-12">
           <h2 className="text-[2.6rem] text-white">
             My <span className="text-[var(--yellow)]">Service</span>
           </h2>
@@ -18,7 +18,7 @@ const Service = () => {
         </div>
 
         {/* Grid Cards */}
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 px-2">
+        <div class="h-fit max-w-md md:max-w-full grid grid-cols-1 md:grid-cols-3 gap-4 px-2">
           {/* Card 1 */}
           <div class="bg-[var(--bg-gray-light)] rounded-xl shadow p-6 flex flex-col items-center justify-center ">
             <div class="flex items-center justify-center">
