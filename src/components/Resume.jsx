@@ -3,7 +3,7 @@ import React from "react";
 const Resume = () => {
   return (
     <section name="Resume" className="flex justify-center py-[8rem] w-full  bg-[var(--bg-dark)]">
-      <container className="max-w-[1400px]">
+      <container className="max-w-[1400px] px-4">
         {/* Text */}
         <div className="max-w-[750px] pb-16">
           <h2 className="font-title text-[2rem] text-bold text-white">

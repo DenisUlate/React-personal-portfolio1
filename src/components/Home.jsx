@@ -3,13 +3,13 @@ import home from "../assets/home.jpg";
 
 const Home = () => {
   return (
-    <section name="Home" className="h-screen w-full my-[300px] md:my-[200px]">
-      <div className="max-w-[540px] md:max-w-[1400px] flex m-auto justify-between items-center flex-col md:flex-row px-8 ">
+    <section name="Home" className=" h-fit md:h-screen w-full bg-[var(--bg-dark)] mt-20 py-[10rem]">
+      <div className="max-w-screen-md md:max-w-screen-xl flex mx-auto justify-between items-center flex-col md:flex-row px-8 ">
         {/* text */}
-        <div className=" w-[290px] md:w-[690px] pb-4 md:pb-0">
+        <div className="w-[290px] md:w-[490px] px-2 pb-4 md:pb-0">
           <p className="text-[var(--yellow)] f-paragraph">Hello, Welcome</p>
-          <h2 className="text-white text-6xl f-paragraph font-bold py-8">I'm Anderson Coper</h2>
-          <p className="text-[var(--clr-gray)] text-xl">
+          <h2 className="text-white text-6xl f-title font-bold py-8">I'm Anderson Coper</h2>
+          <p className="text-[var(--clr-text-gray)] text-[1rem]">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam aperiam sunt inventore molestias libero quaerat
             voluptate labore in blanditiis facere ut perferendis rem eligendi repellendus quasi facilis, veniam consequuntur qui.
           </p>

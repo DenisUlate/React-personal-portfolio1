@@ -5,6 +5,8 @@ import Home from "./components/Home";
 import Service from "./components/Service";
 import Work from "./components/Work";
 import Resume from "./components/Resume";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 // Importing Components
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <Service />
       <Work />
       <Resume />
+      <Contact />
+      <Footer />
     </div>
   );
 }

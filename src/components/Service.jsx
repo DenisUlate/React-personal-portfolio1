@@ -4,7 +4,7 @@ import { TfiWindow } from "react-icons/tfi";
 
 const Service = () => {
   return (
-    <section name="Service" className=" h-screen w-full  my-[400px] md:my-[300px]">
+    <section name="Service" className="h-fit md:h-screen w-full  my-[400px] md:my-[300px]">
       {/* Container */}
       <div className="h-fit max-w-[1400px]  mx-auto px-4">
         {/* My services text */}
@@ -12,7 +12,7 @@ const Service = () => {
           <h2 className="text-[2.6rem] text-white">
             My <span className="text-[var(--yellow)]">Service</span>
           </h2>
-          <p className="text-xl text-[var(--clr-gray)] py-4">
+          <p className="text-[1rem] text-[var(--clr-text-gray)] py-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque cupiditate cumque velit architecto earum autem.
           </p>
         </div>
@@ -25,7 +25,7 @@ const Service = () => {
               <FaBullhorn size={60} color="var(--yellow)" />
             </div>
             <h3 class="text-white text-[1.6rem] font-semibold mt-4">Digital Marketing</h3>
-            <p class="text-[var(--clr-gray)] text-[1rem] mt-2">
+            <p class="text-[var(--clr-text-gray)] text-[1rem] mt-2">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, dignissimos debitis culpa optio id alias quibusdam
               vel cumque facere reprehenderit!
             </p>
@@ -37,7 +37,7 @@ const Service = () => {
               <TfiWindow size={60} color="var(--yellow)" />
             </div>
             <h3 class="text-white text-[1.6rem] font-semibold mt-4">Web Devlopment</h3>
-            <p class="text-[var(--clr-gray)] text-[1rem] mt-2">
+            <p class="text-[var(--clr-text-gray)] text-[1rem] mt-2">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, dignissimos debitis culpa optio id alias quibusdam
               vel cumque facere reprehenderit!
             </p>
@@ -49,7 +49,7 @@ const Service = () => {
               <FaHubspot size={60} color="var(--yellow)" />
             </div>
             <h3 class="text-white text-[1.6rem] font-semibold mt-4">Creative Graphic Design</h3>
-            <p class="text-[var(--clr-gray)] text-[1rem] mt-2 ">
+            <p class="text-[var(--clr-text-gray)] text-[1rem] mt-2 ">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, dignissimos debitis culpa optio id alias quibusdam
               vel cumque facere reprehenderit!
             </p>

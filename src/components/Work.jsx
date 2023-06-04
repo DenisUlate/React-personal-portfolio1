@@ -7,7 +7,7 @@ import work5 from "../assets/work5.jpg";
 
 const Work = () => {
   return (
-    <section name="Work" className="w-full md:h-screen">
+    <section name="Work" className="w-full h-fit md:h-screen">
       {/* Work container */}
       <div className="max-w-[1400px] mx-auto p-4 flex flex-col justify-center w-full h-full px-4">
         {/* Text */}
@@ -15,7 +15,7 @@ const Work = () => {
           <h2 className="w-full text-center text-white text-4xl font-bold py-8">
             My <span className="text-[var(--yellow)]">Work</span>
           </h2>
-          <p className="text-[var(--clr-gray)] text-center text-xl px-8 py-4">
+          <p className="text-[var(--clr-text-gray)] text-center text-[1rem] px-8 py-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro asperiores amet dignissimos nostrum fugiat laborum hic
             minima perferendis provident distinctio.
           </p>
