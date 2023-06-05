@@ -24,32 +24,32 @@ const Nav = () => {
         {/* Menu */}
         <ul className="text-[var(--clr-text-gray)] hidden md:flex md:text-[14px] lg:text-[1rem] ">
           <li className="py-3 md:px-4 ">
-            <Link to="Home" smooth={true} duration={500} offset={-200} activeClass="active">
+            <Link to="Home" smooth={true} duration={500} offset={-200}>
               Home
             </Link>
           </li>
           <li className="py-3 md:px-4 ">
-            <Link to="About" smooth={true} duration={500} offset={-200} activeClass="active">
+            <Link to="About" smooth={true} duration={500} offset={-200}>
               About
             </Link>
           </li>
           <li className="py-3 md:px-4 ">
-            <Link to="Service" smooth={true} duration={500} offset={-200} activeClass="active">
+            <Link to="Service" smooth={true} duration={500} offset={-200}>
               Services
             </Link>
           </li>
           <li className="py-3 md:px-4 ">
-            <Link to="Work" smooth={true} duration={500} offset={-100} activeClass="active">
+            <Link to="Work" smooth={true} duration={500} offset={-100}>
               Work
             </Link>
           </li>
           <li className="py-3 md:px-4 ">
-            <Link to="Resume" smooth={true} duration={500} offset={-100} activeClass="active">
+            <Link to="Resume" smooth={true} duration={500} offset={-100}>
               Resume
             </Link>
           </li>
           <li className="py-3 md:px-4 ">
-            <Link to="Contact" smooth={true} duration={500} offset={-100} activeClass="active">
+            <Link to="Contact" smooth={true} duration={500} offset={-100}>
               Contact
             </Link>
           </li>
