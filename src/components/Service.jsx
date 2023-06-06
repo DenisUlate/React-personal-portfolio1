@@ -4,9 +4,9 @@ import { TfiWindow } from "react-icons/tfi";
 
 const Service = () => {
   return (
-    <section name="Service" className="h-fit md:h-screen w-full  my-[400px] md:my-[300px]">
+    <section name="Service" className="h-fit md:h-screen w-full my-[400px] md:my-[300px]">
       {/* Container */}
-      <div className="h-fit max-w-[1400px]  mx-auto px-4">
+      <div className="h-fit w-full max-w-[1400px]  mx-auto px-4 flex flex-col items-center">
         {/* My services text */}
         <div className="h-fit max-w-md md:max-w-[460px] px-2 pb-12">
           <h2 className="text-[2.6rem] text-white">

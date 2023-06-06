@@ -6,7 +6,7 @@ const About = () => {
     <section name="About" className="h-fit md:h-screen w-full my-[300px] md:my-[200px]">
       <div className="max-w-[540px] md:max-w-[1400px] flex m-auto justify-between items-center flex-col md:flex-row px-8 ">
         {/* text */}
-        <div className=" w-[290px] md:w-[690px] pb-4 md:pb-0 order-2">
+        <div className=" w-[390px] md:w-[690px] pb-4 md:pb-0 order-2">
           <h2 className="text-white text-6xl f-title font-bold py-8">
             About <span className="text-[var(--yellow)]">Me</span>
           </h2>
@@ -26,7 +26,7 @@ const About = () => {
         <div className="relative px-1 order-1">
           <div
             style={{ backgroundImage: `url(${about})` }}
-            className="w-[290px] h-[290px] md:w-[490px] md:h-[490px] bg-cover rounded-2xl overflow-hidden lg:scale-100 md:scale-50"
+            className="w-[390px] h-[290px] md:w-[490px] md:h-[490px] bg-cover rounded-2xl overflow-hidden lg:scale-100 md:scale-50"
           ></div>
           <span className=" rounded-2xl border-8 border-solid border-[var(--yellow)] w-[290px] h-[290px] md:w-[490px] md:h-[490px]  absolute top-6 right-6 -z-10 lg:scale-100 md:scale-50"></span>
         </div>
